@@ -1,0 +1,95 @@
+*{
+  /* font-size: inherit; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1A1A1A;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.bio{
+  padding: 10rem 10rem;
+  align-items: center;
+  text-align: center;
+}
+
+.image{
+
+/*clip-path: polygon(0 0, 100% 0, 100% 70%,0 100%); */
+}
+.banner{
+
+display: flex;
+justify-content: center;
+
+}
+
+.container-image{
+  /* align-items: center;
+  text-align: center; */
+  /*padding: 5px 1rem;*/
+  display: flex;
+background-image:linear-gradient(to right bottom,#000, #FFF), url('../img.jpg');
+background-position: center;
+clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+background-size: cover;
+  height: 15rem;
+  background-blend-mode: color;
+
+}
+.card{
+  background-color: #2e2c2c;
+  box-shadow: 3px  5px 8px #525050de;
+  height: 27rem;
+  margin: 0 1rem;
+}
+.container{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align:center;
+
+
+}
+.container ul{
+  list-style: none;
+display: flex;
+flex-direction: column;
+width: 80%;
+}
+.timeline{
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-middlle{
+
+  height: 35rem;
+  background-color: #2e2c2c;
+  width: 10px;
+  margin: 0 1rem;
+  border-radius: 100px;
+}
+
+.diploma{
+  display: flex;
+
+  height: 5rem;
+  clip-path: polygon(50% 7%, 60% 20%, 100% 20%, 100% 100%, 0 99%, 0 21%, 39% 20%);
+  background-color: #2e2c2c;
+  padding: 2rem;
+}
+
+
+.diploma ul {
+  padding: .5rem .2rem;
+  list-style: none;
+}
+.diploma ul li{
+  padding: .5rem 0rem;
+}
